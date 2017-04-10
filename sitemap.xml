@@ -3,12 +3,22 @@
 
     <sitemap>
         <loc>https://sitedelol.github.io/post-sitemap.xml</loc>
-        <lastmod>2017-04-10T19:50:49.961Z</lastmod>
+        <lastmod>2017-04-10T20:05:28.024Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://sitedelol.github.io/page-sitemap.xml</loc>
-        <lastmod>2017-04-10T16:18:50.000Z</lastmod>
+        <lastmod>2017-04-10T19:48:48.000Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://sitedelol.github.io/category-sitemap.xml</loc>
+        <lastmod>2017-04-10T20:05:28.024Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://sitedelol.github.io/tag-sitemap.xml</loc>
+        <lastmod>2017-04-10T20:05:28.024Z</lastmod>
     </sitemap>
 
 </sitemapindex>
