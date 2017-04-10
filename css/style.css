@@ -124,14 +124,14 @@ div.divider {
   color: #fff;
 }
 .article-meta {
-  background-color: #3d2c32;
-  padding: 16px;
+  background-color: #70505b;
+  padding: 10px;
 }
-.article-meta a {
+a {
   color: rgba(255,255,255,0.54);
   text-decoration: none;
 }
-.article-meta a:hover {
+a:hover {
   color: rgba(255,255,255,0.87);
 }
 .article-date {
@@ -428,9 +428,6 @@ body > div.container {
   font-size: 2em;
   text-transform: uppercase;
   color: #f06292;
-}
-.article-meta {
-  padding-top: 0px;
 }
 .article-entry {
   padding-left: 0px;
