@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+*:not(.material-icons) {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 1em;
+}
+
+a, a:active, a:hover, a:visited {
+    color: #ee6e73;
+    text-decoration: none;
+}
+
+/*Body*/
+
+body > div.container {
+    margin-top: 400px;
+}
+
+@media (max-width: 600px) 
+{
+    body {
+        background: url('/imgs/bg480.jpg') center top no-repeat #000
+    }
+    
+    body > div.container {
+        margin-top: 300px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 720px)
+{
+    body {
+        background: url('/imgs/bg720.jpg') center top no-repeat #000
+    }
+    
+    body > div.container {
+        margin-top: 330px;
+    }
+}
+
+@media (min-width: 720px)
+{
+    body {
+        background: url('/imgs/bgfull.jpg') center top no-repeat #000
+    }
+}
+
+/*Titulo*/
+
+.article-header {
+    padding: 1px 10px;
+}
+
+.article-meta {
+    padding-top: 0px;
+}
+
+.article-header h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.article-entry{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.article-body {
+    padding: 0px 10px;
+}
+
+.article-img {
+    height: 200px;
+    width: 100%;
+}
+
+.collapsible-header {
+    background-color: transparent !important;
+}
