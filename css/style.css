@@ -61,13 +61,13 @@ h4 {
   margin: 0.5rem 0 0.4rem 0;
 }
 nav {
-  background: #212121;
+  background: #3d2c32;
   color: #fff;
   padding-left: 16px;
   padding-right: 16px;
 }
 footer.page-footer {
-  background: #212121;
+  background: #3d2c32;
   color: #fff;
 }
 .brand-logo {
@@ -555,6 +555,31 @@ blockquote {
 .rioter {
   color: #f00;
   font-style: bold;
+}
+body {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+main {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+.footer-copyright {
+  background-color: rgba(0,0,0,0.35) !important;
 }
 .archive-article-inner {
   padding: 10px;
