@@ -581,6 +581,11 @@ main {
 .footer-copyright {
   background-color: rgba(0,0,0,0.35) !important;
 }
+blockquote p,
+blockquote span {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
 .archive-article-inner {
   padding: 10px;
   margin-bottom: 15px;
